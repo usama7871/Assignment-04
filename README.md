@@ -1,10 +1,14 @@
+Below is a refined, animated, and professional README.md file. It’s short, visually engaging, and clearly states that it’s your Assignment 4 for A-101 Class Section A. Feel free to update the image URLs or badges to suit your exact style.
 
 ```markdown
-![Animated Banner](https://media.giphy.com/media/3o7aCUA0jw1iAKaU8I/giphy.gif)
+<!-- Animated header banner -->
+![Animated Header](https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif)
 
-# Assignment-04
+# Assignment 04 - A-101 Class Section A
 
-A professional Python project for academic purposes. This repository contains clean, well-organized code designed to showcase your Python skills.
+**Welcome!**  
+This is my Assignment 4 for A-101 Class Section A.  
+A sleek Python project crafted for academic excellence.
 
 ---
 
@@ -17,7 +21,7 @@ A professional Python project for academic purposes. This repository contains cl
    cd Assignment-04
    ```
 
-2. **Run the example project:**
+2. **Run the main project (example):**
 
    ```bash
    python homework_projects/example_assignment.py
@@ -25,29 +29,26 @@ A professional Python project for academic purposes. This repository contains cl
 
 ---
 
-## Repository Structure
+## Repository Overview
 
 ```plaintext
 Assignment-04/
-├── homework_projects/
-├── online_class_projects/
-├── projects_to_be_submitted_by_students/
-└── README.md
+├── homework_projects/                  # Homework Assignments
+├── online_class_projects/              # Online Class Projects
+├── projects_to_be_submitted_by_students/  # Student Projects
+└── README.md                         # This file
 ```
 
 ---
 
-## Contributing
+## Contributing & More
 
-Feel free to fork the repository and submit pull requests for improvements.
+- **Suggestions?** Feel free to fork and submit a pull request.
+- **Questions?** Open an issue for discussion.
 
----
-
-## License
-
-This project is for educational use only.
-
-[![Python](https://img.shields.io/badge/Python-3.x-blue?style=plastic)](https://www.python.org)
+[![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square)](https://www.python.org)
+[![Assignment](https://img.shields.io/badge/Assignment-04-orange?style=flat-square)](https://github.com/usama7871/Assignment-04)
+[![Class](https://img.shields.io/badge/Class-A--101%20Section%20A-green?style=flat-square)](https://github.com/usama7871/Assignment-04)
 ```
 
-This version offers a clean and concise overview with an animated header and professional structure. Enjoy coding!
+This version uses an animated header, clear structure, and modern badges for a professional and engaging display. Enjoy coding!
