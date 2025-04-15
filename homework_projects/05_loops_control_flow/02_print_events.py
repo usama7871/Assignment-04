@@ -1,51 +1,18 @@
-## Problem Statement
+MAX_TERM_VALUE = 10000  # The maximum value for the Fibonacci sequence
 
-Write a program that prints the first 20 even numbers. There are several correct approaches, but they all use a loop of some sort. Do no write twenty print statements
-
-The first even number is 0:
-
-0
-2
-4
-6
-8
-10
-12
-14
-16
-18
-20
-22
-24
-26
-28
-30
-32
-34
-36
-38
-
-## Starter Code
-
-```bash
 def main():
-    print("Delete this line and write your code here! :)")
+    curr_term = 0  # The 0th Fibonacci number
+    next_term = 1  # The 1st Fibonacci number
+
+    # Print Fibonacci terms as long as the current term is less than or equal to MAX_TERM_VALUE
+    while curr_term <= MAX_TERM_VALUE:
+        print(curr_term)  # Print the current Fibonacci term
+        # Update the terms for the next iteration
+        term_after_next = curr_term + next_term
+        curr_term = next_term
+        next_term = term_after_next
 
 
-# This provided line is required at the end of
-# Python file to call the main() function.
+# The provided line is required to call the main() function
 if __name__ == '__main__':
     main()
-```
-
-## Solution
-```bash
-def main():
-    # This for-loop start at 0 and counts up to 19 (for a total of 20 numbers)
-    for i in range(20):
-        print(i * 2)  # Use the 'i' value inside the for-loop
-   
-# Call the main function when "run", no need to edit anything below!
-if __name__ == "__main__":
-    main()
-```
