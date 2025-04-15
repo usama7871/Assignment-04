@@ -1,4 +1,3 @@
-Here's your enhanced README file with emojis, better styling, and improved visual appeal:
 
 ```markdown
 # 🚀 Assignment 04 - A-101 Class Section A
@@ -18,10 +17,10 @@ A sleek Python project crafted for academic excellence. 🎓
    cd Assignment-04
    ```
 
-2. **Run the main project (example):** ▶️
+2. **Run the main project (01_add_two_numbers.py):** ▶️
 
    ```bash
-   python homework_projects/example_assignment.py
+   python homework_projects\00_intro_python\01_add_two_numbers.py
    ```
 
 ---
