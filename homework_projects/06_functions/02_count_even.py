@@ -1,30 +1,3 @@
-## Problem Statement
-
-Fill out the function count_even(lst) which 
-
-first populates a list by prompting the user for integers until they press enter (please use the prompt "Enter an integer or press enter to stop: "), 
-
-and then prints the number of even numbers in the list. 
-
-If you'd prefer to focus on the second task only, scroll down for our implementation of the first task!
-
-
-## Starter Code
-
-```bash
-def main():
-    print("Delete this line and write your code here! :)")
-
-
-# This provided line is required at the end of
-# Python file to call the main() function.
-if __name__ == '__main__':
-    main()
-```
-
-## Solution
-```bash
-
 def count_even(lst):
     """
     Returns number of even numbers in list.
@@ -37,13 +10,7 @@ def count_even(lst):
     for num in lst:  # Loop through the numbers in the list
         if num % 2 == 0:  # If the current number in the list is even (divisible by 2)
             count += 1  # Add one to our count!
-
-    # Here's another way to do this same thing, with a different kind of for-loop:
-    # for i in range(len(lst)):
-    #     num = lst[i]
-    #     if num % 2 == 0:
-    #         count += 1
-
+    
     print(count)  # Print out how many even numbers we counted above
 
 def get_list_of_ints():
@@ -59,12 +26,10 @@ def get_list_of_ints():
     return lst
 
 def main():
-    lst = get_list_of_ints()
-    count_even(lst)
+    lst = get_list_of_ints()  # Get the list of integers from the user
+    count_even(lst)  # Count and print the even numbers in the list
 
-
-# There is no need to edit code beyond this point
-
+# This provided line is required at the end of
+# Python file to call the main() function.
 if __name__ == '__main__':
     main()
-```

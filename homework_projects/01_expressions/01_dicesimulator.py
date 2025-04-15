@@ -54,7 +54,8 @@ def main():
     
     # Create a variable in main()'s scope to demonstrate it won't be affected
     # by the die1 variable in roll_dice()
-    die1 = 10  # This variable is local to main() only
+    die1 = 10  # This variable is local to main() only 
+    
     
     # Show the initial value of die1 in main()
     print(f"Before rolling, die1 in main(): {die1}")
