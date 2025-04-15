@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 ```markdown
 # 🚀 Assignment 04 - A-101 Class Section A
